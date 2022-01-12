@@ -1,0 +1,22 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(224, 174, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.App > h1 {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(34, 34, 34);
+}
